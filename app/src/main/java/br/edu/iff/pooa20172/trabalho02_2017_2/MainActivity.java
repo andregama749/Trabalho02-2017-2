@@ -11,7 +11,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
     private ArrayList<Evento> eventos;
     private ArrayAdapter adapter;
     int resultado = 1;
@@ -91,6 +91,9 @@ public class MainActivity extends Activity {
         eventos.add(ev);
 
         ev = new Evento("Evento F","04/12/2017","IFF",300,"Franco","Qualquer",150, R.drawable.cidades_lindas_mundo_2014_66);
+        eventos.add(ev);
+
+        ev = new Evento("Evento G","05/12/2017","IFF",300,"Galio","Qualquer",150, R.drawable.cidades_lindas_mundo_2014_70);
         eventos.add(ev);
 
         return eventos;

@@ -10,8 +10,7 @@
         android:id="@+id/imageView"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:contentDescription="@android:string/ok"
-        app:srcCompat="@drawable/cidades_lindas_mundo_2014_45" />
+        android:contentDescription="@android:string/ok"/>
 
     <LinearLayout
         android:layout_width="310dp"
